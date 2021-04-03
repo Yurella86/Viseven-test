@@ -81,15 +81,11 @@
         background-color: #f4f4f4;
         .container {
             margin: 0px 250px;
-            .title {
+            .about-me-title {
+                @extend %fnTitle;
                 width: 100%;
                 height: 44px;
                 margin-top: 50px;
-                text-align: center;
-                vertical-align: middle;
-                font-family: Roboto;
-                font-weight: 700;
-                font-size: 34px;
             }
             .article {
                 display: flex;
@@ -117,13 +113,10 @@
         left: 250px;
         width: 945px;
         height: 300px;
-        .title {
+        .skills-title {
+            @extend %fnTitle;
             width: 945px;
             height: 44px;
-            font-family: Roboto;
-            font-weight: 700;
-            font-size: 34px;
-            text-align: center;
         }
         .items-skills {
             display: flex;
@@ -167,12 +160,9 @@
             height: 2087px;
             margin: 0 auto;
             .portfolio-title {
+                @extend %fnTitle;
                 height: 43px;
                 margin: 50px auto;
-                font-family: Roboto;
-                font-weight: 700;
-                font-size: 34px;
-                text-align: center;
             }
             .portfolio-text {
                 height: 24px;
@@ -193,10 +183,7 @@
         height: 109px;
         top: 4016px;
         .contacts-title {
-            font-family: Roboto;
-            font-weight: 700;
-            font-size: 34px;
-            text-align: center;
+            @extend %fnTitle;
         }
         .contacts-icons {
             display: inline-flex;
@@ -204,6 +191,9 @@
             width: 340px;
             margin-top: 30px;
             margin-left: 300px;
+            img:hover {
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.418);
+            }
         }
     }
 }

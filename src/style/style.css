@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,700");
+.wrapper .about-me .container .about-me-title, .wrapper .skills .skills-title, .wrapper .portfolio .portfolio-wrapper .portfolio-title, .wrapper .contacts .contacts-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,15 +89,10 @@
 .wrapper .about-me .container {
   margin: 0px 250px;
 }
-.wrapper .about-me .container .title {
+.wrapper .about-me .container .about-me-title {
   width: 100%;
   height: 44px;
   margin-top: 50px;
-  text-align: center;
-  vertical-align: middle;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 34px;
 }
 .wrapper .about-me .container .article {
   display: flex;
@@ -117,13 +119,9 @@
   width: 945px;
   height: 300px;
 }
-.wrapper .skills .title {
+.wrapper .skills .skills-title {
   width: 945px;
   height: 44px;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 34px;
-  text-align: center;
 }
 .wrapper .skills .items-skills {
   display: flex;
@@ -170,10 +168,6 @@
 .wrapper .portfolio .portfolio-wrapper .portfolio-title {
   height: 43px;
   margin: 50px auto;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 34px;
-  text-align: center;
 }
 .wrapper .portfolio .portfolio-wrapper .portfolio-text {
   height: 24px;
@@ -192,16 +186,13 @@
   height: 109px;
   top: 4016px;
 }
-.wrapper .contacts .contacts-title {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 34px;
-  text-align: center;
-}
 .wrapper .contacts .contacts-icons {
   display: inline-flex;
   justify-content: space-between;
   width: 340px;
   margin-top: 30px;
   margin-left: 300px;
+}
+.wrapper .contacts .contacts-icons img:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.418);
 }
