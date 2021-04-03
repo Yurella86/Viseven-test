@@ -1,0 +1,209 @@
+@import "font";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 1445px;
+    height: 4185px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    .navigation {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 945px;
+        height: 50px;
+        left: 250px;
+        top: 40px;
+        border-bottom: 2px solid #828282;
+        a {
+            font-family: Roboto, "Helvetica Neue", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #828282;
+            width: 90px;
+            cursor: pointer;
+            &:hover {
+                color: black;
+            }
+            &:nth-child(2) {
+                padding-left: 9px;
+            }
+            &:nth-child(3) {
+                padding-left: 8px;
+            }
+            &:nth-child(4) {
+                text-align: end;
+            }
+            &:last-child {
+                text-align: end;
+                padding-right: 2px;
+            }
+        }
+    }
+    .home {
+        position: absolute;
+        width: 945px;
+        height: 615px;
+        left: 250px;
+        top: 125px;
+        .home-header {
+            display: flex;
+            justify-content: space-between;
+            display: flex;
+            h1 {
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 47px;
+            }
+            div {
+                font-family: Roboto;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: end;
+                padding: 6px 3px;
+            }
+        }
+
+        .home-img {
+            margin-top: 57px;
+        }
+    }
+    .about-me {
+        position: absolute;
+        width: 1445px;
+        height: 640px;
+        top: 840px;
+        background-color: #f4f4f4;
+        .container {
+            margin: 0px 250px;
+            .title {
+                width: 100%;
+                height: 44px;
+                margin-top: 50px;
+                text-align: center;
+                vertical-align: middle;
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 34px;
+            }
+            .article {
+                display: flex;
+                margin-top: 45px;
+                align-items: center;
+                .paragraph {
+                    width: 451px;
+                    height: 220px;
+                    margin-left: 44px;
+                    p {
+                        font-size: 20px;
+                        font-family: Roboto;
+                        font-weight: 600;
+                        line-height: 23 / 20 * 100%;
+                        padding-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .skills {
+        position: absolute;
+        display: block;
+        top: 1530px;
+        left: 250px;
+        width: 945px;
+        height: 300px;
+        .title {
+            width: 945px;
+            height: 44px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 34px;
+            text-align: center;
+        }
+        .items-skills {
+            display: flex;
+            margin-top: 50px;
+            justify-content: space-between;
+            .column {
+                width: 170px;
+                height: 205px;
+                text-align: center;
+                .icon-skills {
+                    height: 88px;
+                }
+                .name-skills {
+                    margin-top: 23px;
+                    height: 40px;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #828282;
+                }
+                .stars {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .portfolio {
+        position: absolute;
+        width: 1445px;
+        height: 2087px;
+        left: 0px;
+        top: 1879px;
+        background: #f4f4f4;
+        .portfolio-wrapper {
+            display: block;
+            width: 945px;
+            height: 2087px;
+            margin: 0 auto;
+            .portfolio-title {
+                height: 43px;
+                margin: 50px auto;
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 34px;
+                text-align: center;
+            }
+            .portfolio-text {
+                height: 24px;
+                width: 945px;
+                margin: 35px auto 86px;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center;
+                text-decoration: underline;
+            }
+        }
+    }
+    .contacts {
+        position: absolute;
+        left: 250px;
+        width: 945px;
+        height: 109px;
+        top: 4016px;
+        .contacts-title {
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 34px;
+            text-align: center;
+        }
+        .contacts-icons {
+            display: inline-flex;
+            justify-content: space-between;
+            width: 340px;
+            margin-top: 30px;
+            margin-left: 300px;
+        }
+    }
+}
