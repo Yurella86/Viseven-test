@@ -35,6 +35,7 @@
   color: #828282;
   width: 90px;
   cursor: pointer;
+  text-decoration: none;
 }
 .wrapper .navigation a:hover {
   color: black;
@@ -71,10 +72,11 @@
 }
 .wrapper .home .home-header div {
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   text-align: end;
-  padding: 6px 3px;
+  line-height: 116.6666666667%;
+  padding: 7px 0;
 }
 .wrapper .home .home-img {
   margin-top: 57px;
@@ -100,7 +102,7 @@
   align-items: center;
 }
 .wrapper .about-me .container .article .paragraph {
-  width: 451px;
+  width: 450px;
   height: 220px;
   margin-left: 44px;
 }
@@ -172,7 +174,7 @@
 .wrapper .portfolio .portfolio-wrapper .portfolio-text {
   height: 24px;
   width: 945px;
-  margin: 35px auto 86px;
+  margin: 37px auto 85px;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
@@ -190,9 +192,6 @@
   display: inline-flex;
   justify-content: space-between;
   width: 340px;
-  margin-top: 30px;
+  margin-top: 28px;
   margin-left: 300px;
-}
-.wrapper .contacts .contacts-icons img:hover {
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.418);
 }
